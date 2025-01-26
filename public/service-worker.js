@@ -71,10 +71,6 @@ workboxSW.router.registerRoute(function(rawData) {
 
 workboxSW.precache([
   {
-    "url": "404.html",
-    "revision": "0a27a4163254fc8fce870c8cc3a3f94f"
-  },
-  {
     "url": "favicon.ico",
     "revision": "2cab47d9e04d664d93c8d91aec59e812"
   },
@@ -96,7 +92,7 @@ workboxSW.precache([
   },
   {
     "url": "service-worker.js",
-    "revision": "b1e77fc3afd18cc16860e4e510fb28b4"
+    "revision": "7c4d9f81f8173e63f100fca340b6941e"
   },
   {
     "url": "src/css/app.css",
@@ -141,10 +137,6 @@ workboxSW.precache([
   {
     "url": "sw-base.js",
     "revision": "40818b10c18548797643f6f26872a892"
-  },
-  {
-    "url": "sw.js",
-    "revision": "478f479738fb631a34e8ff9de1170170"
   },
   {
     "url": "workbox-sw.prod.v2.0.0.js",
